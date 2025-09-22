@@ -1,5 +1,9 @@
 (() => {
   'use strict';
+  // voice.js (very first lines)
+  window.__voice_loaded = true;
+  console.log("[voice-launcher] script loaded");
+
 
   const ROOT_SEL = '#voiceLauncher';
 
